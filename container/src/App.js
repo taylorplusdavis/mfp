@@ -5,7 +5,7 @@ import MarketingApp from "./components/MarketingApp";
 const App = () => {
   console.log(mount);
   return (
-    <div>
+    <div className="container_main">
       <MarketingApp />
     </div>
   );
